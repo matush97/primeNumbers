@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Matúš Hudák">
+        <title>My fifth website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="Js/scrip.js"></script>
+    </head>
+    
+    <body>
+        <div id="kontajner">
+            <h1>Počítanie prvočísel</h1>
+            <div id="hornaCast">
+                <label for="hc1od">Zadaj prvé  číslo &#160;</label>
+                    <input type="text" id="hc1od" placeholder="od" name="hc1od" onchange="kontrola()" required>    
+                <br>
+                <label for="hc1do">Zadaj druhé číslo </label>
+                    <input type="text" id="hc1do" placeholder="do" name="hc1do" onchange="kontrola()" required>
+            </div>
+            <div id="strednaCast">
+                <button id="tlacidlo" name="tlacidlo" onclick="urobVypocet()">Stlač</button>
+            </div>
+
+            <div id="tabulkaCisel"></div>
+            
+            <div id="pokrok">
+                <div id="percentaCisla" >0%</div>
+                <div id="percentaPolicko"></div>
+            </div>
+            <!-- <script src="script.js"></script> -->
+        </div>
+        
+    <footer>
+        <a target="_blank" href = "http://www.tutorialspark.com/html5/HTML5_WebWorkers_Compute_PrimeNumbers_Demo.php" >Zdroj</a>
+        <br>
+        @Matúš Hudák 2019
+    </footer>
+        
+    </body> 
+
+</html>
+
+  

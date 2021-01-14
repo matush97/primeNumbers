@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{
+    background-color: rgb(201, 201, 241);
+}
+
+#kontajner{
+    width: 500px;
+    height: 500px ;
+    border: 1px solid;
+    box-shadow: 2px 4px #000000;
+    background-color: rgb(156, 204, 233);
+    margin-left: 32%;
+    margin-top: 1%;
+}
+
+h1{
+    
+    height: 40px;
+    border-bottom: 2px solid; 
+    border-bottom-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+#hornaCast{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#hc1od{
+    font-style: unset;
+}
+#hc1do{
+    font-style: unset;
+}
+ 
+ #tlacidlo{
+    box-sizing: border-box;
+    width: 23%;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+#tlacidlo:hover {
+	background-color: rgb(243, 242, 242);
+    color: rgb(13, 102, 60);
+    border: 2px solid rgb(13, 102, 60);
+    transition: 0.7s;
+	cursor: pointer;
+}
+#tabulkaCisel{
+    text-align: justify;
+	border: 3px solid black;
+    height: 150px;
+    max-width: 50%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 18px;
+    font-weight: normal;
+    color:black;
+    font-style: oblique;
+}
+#percentaPolicko {
+	transition: 0.7s;
+    opacity: 0.7;
+    width: 0%;
+    height: 45px;
+    background-color: rgb(216, 71, 71);
+    text-align: left;
+}
+
+#pokrok {
+	width: 50%;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin-top: 2%;
+    margin-left: 27%;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+#percentaCisla{
+	 z-index: 2; 
+    position: absolute; 
+    width: 17%; 
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    color: red;
+    text-align: center;
+    text-decoration-style: double;
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    margin-top: 9%;
+}  
